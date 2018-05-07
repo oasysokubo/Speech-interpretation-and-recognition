@@ -17,10 +17,7 @@ import edu.cmu.sphinx.result.WordResult;
 
 
 /**
- * 
- * 
- * @author oasysokubo
- *
+ * Voice Recognition class, voice perceiver
  */
 public class HelloWorld {
 
