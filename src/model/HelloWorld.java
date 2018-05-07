@@ -15,6 +15,13 @@ import edu.cmu.sphinx.api.LiveSpeechRecognizer;
 import edu.cmu.sphinx.api.SpeechResult;
 import edu.cmu.sphinx.result.WordResult;
 
+
+/**
+ * 
+ * 
+ * @author oasysokubo
+ *
+ */
 public class HelloWorld {
 
 	// Necessary
@@ -129,6 +136,9 @@ public class HelloWorld {
 
 								// You said?
 								System.out.println(speechRecognitionResult + "\n");
+								
+								// Sleep some period
+								Thread.sleep(1500);
 
 								// Call the appropriate method
 								makeDecision(speechRecognitionResult, speechResult.getWords());
@@ -209,7 +219,7 @@ public class HelloWorld {
 	 */
 	public void makeDecision(String speech, List<WordResult> speechWords) {
 
-		new voiceListener(speech);
+		new VoiceListener(speech);
 
 	}
 
@@ -227,11 +237,14 @@ public class HelloWorld {
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		
+
 		// launch application
-		//new HelloWorld();
-		
-		// test class
-		new voiceTest();
+		new HelloWorld();
+
+		// test class for VoiceListener
+		//new VoiceListenerTest();
+
+		// test class for VoiceSynthesizer
+		//new VoiceSynthesizerTest();
 	}
 }
