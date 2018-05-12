@@ -11,18 +11,20 @@ public class VoiceListener {
 
 	// Math
 	Math math;
+	
+	// VoiceSynthesizer
+	VoiceSynthesizer voicesynthesizer;
 
 	// Store Speech
 	private String speech;
 	
 	// String Formatted output
 	private String output;
-	
 
 	/**
 	 * random expressions
 	 */
-	String[] unknown = { "What do you mean by", "What's", "What is", "What about" };
+	String[] unknown = { "what did you say?", "what?" };
 	String[] greet = { "hey", "hi", "hello", };
 
 	/**
@@ -74,6 +76,16 @@ public class VoiceListener {
 		/**
 		 * </math>
 		 */
+		
+		/**
+		 * <greet>
+		 */
+		else if(speech.contains("hello") || speech.contains("hey") || speech.contains("hi")) {
+			output = greet[0];
+		}
+		/**
+		 * </greet>
+		 */
 
 		/**
 		 * <feelings>
@@ -96,21 +108,31 @@ public class VoiceListener {
 		/**
 		 * <command>
 		 */
+		else if(speech.contains("open")) {
+			if(speech.contains("safari")) new RunCommand("open /Applications/Safari.app");
+			else if(speech.contains("text edit")) new RunCommand("open /Applications/textedit.app");
+			else if(speech.contains("minecraft")) new RunCommand("open /Applications/Minecraft.app");
+		}
 		else if (speech.contains("help")) {
+			output = "With what?";
 
 		} else if (speech.contains("quit")) {
-			System.out.println("Goodbye");
+			new VoiceSynthesizer("Goodbye");
 			System.exit(0);
 		}
 		/**
 		 * </command>
 		 */
 		
+		else {
+			output = unknown[0];
+		}
+		
 		
 		/**
 		 * Output Data
 		 */
-		System.out.println(output);
+		//new VoiceSynthesizer(output);
 	}
 
 }
