@@ -4,7 +4,6 @@ Oasys Okubo
 
 2018-4-30
 
-**SRC:**
 
 **HelloWorld.java** is the Main class containing the voice recognition system
 
