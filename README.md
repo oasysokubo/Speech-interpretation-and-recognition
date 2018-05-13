@@ -2,11 +2,6 @@
 
 Voice recognition application using Sphinx4 library, able to understand and translate English speech into text and execute commands. Implements Natural Language Processing and Deep Learning and uses an acoustical modeling translation system. Also, a voice synthesizer system is implemented for natural language feedback to users.
 
-## Getting Started
-
-$ javac HelloWorld.java
-$ java HelloWorld
-
 ## Built With
 
 [CMUSphinx](https://cmusphinx.github.io) - Speech Recognition toolkit used
