@@ -6,7 +6,7 @@ Oasys Okubo
 
 **SRC:**
 
-**HellowWorld.java** is the Main class containing the voice recognition system
+**HelloWorld.java** is the Main class containing the voice recognition system
 
 **Math.java** calculates math equation recognized by speech recognition
 
