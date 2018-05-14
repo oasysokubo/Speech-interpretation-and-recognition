@@ -3,34 +3,25 @@ package model;
 import java.util.Arrays;
 import java.util.List;
 
-/** 
+/**
  * Math calculation class which covers basic arithmetic calculations
  */
 public class Math {
 
-	/**
-	 * store speech
-	 */
+	// store speech
 	private String s;
 
-	/**
-	 *  split equation
-	 */
 	private String[] splitEqn;
 
-	/**
-	 *  Result
-	 */
 	private double result;
-	
-	/**
-	 *  numParse results
-	 */
+
+	// numParse results
 	private int r1;
 	private int r2;
+	
 
 	/**
-	 *  allowed numbers
+	 * allowed numbers
 	 */
 	List<String> allowedStrings = Arrays.asList("zero", "one", "two", "three", "four", "five", "six", "seven", "eight",
 			"nine", "ten", "eleven", "twelve", "thirteen", "fourteen", "fifteen", "sixteen", "seventeen", "eighteen",
@@ -38,7 +29,7 @@ public class Math {
 			"thousand", "million", "billion", "trillion");
 
 	/**
-	 *  Math expression possibilities
+	 * Math expression possibilities
 	 */
 	String[] mathEx = { "plus", "add", "addition", "added by", "added", "minus", "subtract", "subtract by",
 			"subtracted", "multiplication", "multiply", "multiplied by", "times", "division", "divide", "divided by",
@@ -54,7 +45,8 @@ public class Math {
 	/**
 	 * Constructor with parameter
 	 * 
-	 * @param s is speech
+	 * @param s
+	 *            is speech
 	 */
 	public Math(String s) {
 		this.s = s;
@@ -64,7 +56,8 @@ public class Math {
 	/**
 	 * @return a calculated two variable equation
 	 * 
-	 * @param s is the string of the speech
+	 * @param s
+	 *            is the string of the speech
 	 */
 	public void calculate() {
 
@@ -139,7 +132,7 @@ public class Math {
 	public double math(String[] split, String v) {
 
 		boolean isValidInput = true;
-		
+
 		// result of solved eqation
 		double result = -1;
 
@@ -174,10 +167,10 @@ public class Math {
 			} else if (v.equals("-")) {
 				result = r1 - r2;
 			} else if (v.equals("/")) {
-				result = (double)r1 / (double)r2;
+				result = (double) r1 / (double) r2;
 			} else if (v.equals("*")) {
-				result = (double)r1 * (double)r2;
-			} 
+				result = (double) r1 * (double) r2;
+			}
 		}
 		return result;
 	}
@@ -340,11 +333,11 @@ public class Math {
 	public double getResult() {
 		return result;
 	}
-	
+
 	public int getR1() {
 		return this.r1;
 	}
-	
+
 	public int getR2() {
 		return this.r2;
 	}

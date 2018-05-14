@@ -30,21 +30,9 @@ public class VoiceListenerTest {
 
 		System.out.println("Enter an expression: ");
 		this.s = scnr.nextLine();
+		
+		testCase();
 
-		System.out.println("\nWhich option?:");
-		option = scnr.nextLine();
-
-		switch (option) {
-		case "1":
-			testCase();
-			break;
-		case "2":
-			testCase2();
-			break;
-		case "3":
-			testCase3();
-			break;
-		}
 	}
 
 	public VoiceListenerTest(String s) {
@@ -64,26 +52,6 @@ public class VoiceListenerTest {
 			System.out.println("Test ended");
 			System.exit(0);
 		}
-	}
-
-	public void testCase2() {
-
-		new VoiceListener(s);
-		if (!s.equals("0")) {
-			new VoiceListenerTest();
-		} else {
-			System.out.println("Test ended");
-			System.exit(0);
-		}
-	}
-
-	// test class instance access to methods
-	public void testCase3() {
-		math = new Math(s);
-		String[] split = math.split(s);
-
-		for (String s : split)
-			System.out.print(s + " | ");
 	}
 
 }

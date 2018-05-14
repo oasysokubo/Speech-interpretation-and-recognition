@@ -17,7 +17,10 @@ import edu.cmu.sphinx.result.WordResult;
 
 
 /**
- * Voice Recognition class, voice perceiver
+ * 
+ * 
+ * @author oasysokubo
+ *
  */
 public class HelloWorld {
 
@@ -236,10 +239,10 @@ public class HelloWorld {
 	public static void main(String[] args) {
 
 		// launch application
-		new HelloWorld();
+		//new HelloWorld();
 
 		// test class for VoiceListener
-		//new VoiceListenerTest();
+		new VoiceListenerTest();
 
 		// test class for VoiceSynthesizer
 		//new VoiceSynthesizerTest();

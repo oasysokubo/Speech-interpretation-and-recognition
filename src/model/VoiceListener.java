@@ -86,6 +86,18 @@ public class VoiceListener {
 		/**
 		 * </greet>
 		 */
+		
+		/**
+		 * <Question>
+		 */
+		else if (speech.contains("date") && speech.contains("want")) {
+			output = "nope";
+		} else if(speech.contains("world") && speech.contains("take") && speech.contains("over")) {
+			output = "classified information";
+		}
+		/**
+		 * </Question>
+		 */
 
 		/**
 		 * <feelings>
@@ -109,9 +121,18 @@ public class VoiceListener {
 		 * <command>
 		 */
 		else if(speech.contains("open")) {
-			if(speech.contains("safari")) new RunCommand("open /Applications/Safari.app");
-			else if(speech.contains("text edit")) new RunCommand("open /Applications/textedit.app");
-			else if(speech.contains("minecraft")) new RunCommand("open /Applications/Minecraft.app");
+			if(speech.contains("safari")) {
+				new VoiceSynthesizer("opening safari");
+				new RunCommand("open /Applications/Safari.app");
+			}
+			else if(speech.contains("text edit")) {
+				new VoiceSynthesizer("opening text edit");
+				new RunCommand("open /Applications/textedit.app");
+			}
+			else if(speech.contains("minecraft")) {
+				new VoiceSynthesizer("opening minecraft");
+				new RunCommand("open /Applications/Minecraft.app");
+			}
 		}
 		else if (speech.contains("help")) {
 			output = "With what?";
@@ -119,6 +140,10 @@ public class VoiceListener {
 		} else if (speech.contains("quit")) {
 			new VoiceSynthesizer("Goodbye");
 			System.exit(0);
+		} else if (speech.contains("time") && speech.contains("what")) {
+			output = "time to go to sleep mister";
+		} else if (speech.contains("date") && speech.contains("what")) {
+			output = "it is the end of da world!";
 		}
 		/**
 		 * </command>
@@ -132,7 +157,7 @@ public class VoiceListener {
 		/**
 		 * Output Data
 		 */
-		//new VoiceSynthesizer(output);
+		new VoiceSynthesizer(output);
 	}
 
 }
