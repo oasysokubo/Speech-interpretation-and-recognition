@@ -1,4 +1,4 @@
-**VR_System** - Voice recognition system using Sphinx4 library, able to understand and translate English speech into text and execute commands. Implements Natural Language Processing and Deep Learning and uses an acoustical modeling translation system. Implemented a voice synthesizer system for natural language feedback.
+**VR_System** - Voice recognition system able to understand and translate English speech into text by using an acoustical modeling translation system. Implemented a voice synthesizer system for natural language feedback.
 
 Oasys Okubo
 
