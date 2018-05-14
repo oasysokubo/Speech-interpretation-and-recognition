@@ -26,6 +26,7 @@ Oasys Okubo
 -------------------------------------------------------------------
 
 [CMUSphinx](https://cmusphinx.github.io) - speech recognition toolkit
+
 [FreeTTS](https://freetts.sourceforge.io) - speech synthesizer api
 
 
