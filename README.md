@@ -4,6 +4,8 @@ Oasys Okubo
 
 2018-4-30
 
+**source:**
+-------------------------------------------------------------------
 
 **HelloWorld.java** is the Main class containing the voice recognition system
 
@@ -20,11 +22,14 @@ Oasys Okubo
 **RunCommand.java** is a runtime class for performing computer system tasks
 
 
-**Built With:**
+**built with:**
+-------------------------------------------------------------------
 
 [CMUSphinx](https://cmusphinx.github.io) - Speech Recognition toolkit used
 
-**Update:**
+
+**update:**
+-------------------------------------------------------------------
 
 April 29, 2018 - Implemented Voice Synthesizer for natural linguistic feedback.
 
