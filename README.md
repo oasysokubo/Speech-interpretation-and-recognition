@@ -7,19 +7,30 @@ Oasys Okubo
 **sources:**
 -------------------------------------------------------------------
 
-**HelloWorld.java** is the Main class containing the voice recognition system
+model:
 
-**Math.java** calculates math equation recognized by speech recognition
+**Main.java** - the Main class
 
-**VoiceListener.java** takes in speech from Main and executes specific command
+**ArithmeticAnalysis.java** - calculates math equation recognized by speech recognition
 
-**VoiceListenerTest.java** is a test class for VoiceListener.java
+**VoiceListener.java** - takes in speech from Main and executes specific command
 
-**VoiceSynthesizer.java** is a voice synthesizer able to give linguistic feedback to users
 
-**VoiceSynthesizerTest.java** is a test class for VoiceSynthesizer.java
+api:
 
-**RunCommand.java** is a runtime class for performing computer system tasks
+**VoiceDictation.java** - voice recognition system
+
+**VoiceSynthesizer.java** - a voice synthesizer able to give linguistic feedback to users
+
+**RunCommand.java** - a runtime class for performing computer system tasks
+
+
+test:
+
+**VoiceListenerTest.java** - a test class for VoiceListener.java
+
+**VoiceSynthesizerTest.java** - a test class for VoiceSynthesizer.java
+
 
 
 **built with:**
