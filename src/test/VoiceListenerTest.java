@@ -1,6 +1,10 @@
-package model;
+package test;
 
 import javax.script.ScriptException;
+
+import model.ArithmeticAnalysis;
+import model.VoiceListener;
+
 import java.util.Scanner;
 
 /* This class is a test class specifically to debug VoiceListener. 

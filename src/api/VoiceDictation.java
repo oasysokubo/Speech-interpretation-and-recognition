@@ -1,4 +1,4 @@
-package model;
+package api;
 
 import java.io.IOException;
 import java.util.List;
@@ -14,6 +14,8 @@ import edu.cmu.sphinx.api.Configuration;
 import edu.cmu.sphinx.api.LiveSpeechRecognizer;
 import edu.cmu.sphinx.api.SpeechResult;
 import edu.cmu.sphinx.result.WordResult;
+import model.VoiceListener;
+import test.VoiceListenerTest;
 
 
 /**
@@ -22,7 +24,7 @@ import edu.cmu.sphinx.result.WordResult;
  * @author oasysokubo
  *
  */
-public class HelloWorld {
+public class VoiceDictation {
 
 	// Necessary
 	private LiveSpeechRecognizer recognizer;
@@ -59,7 +61,7 @@ public class HelloWorld {
 	/**
 	 * Constructor
 	 */
-	public HelloWorld() {
+	public VoiceDictation() {
 
 		// Loading Message
 		logger.log(Level.INFO, "Loading Speech Recognizer...\n");
@@ -229,22 +231,5 @@ public class HelloWorld {
 
 	public boolean getSpeechRecognizerThreadRunning() {
 		return speechRecognizerThreadRunning;
-	}
-
-	/**
-	 * Main Method
-	 * 
-	 * @param args
-	 */
-	public static void main(String[] args) {
-
-		// launch application
-		//new HelloWorld();
-
-		// test class for VoiceListener
-		new VoiceListenerTest();
-
-		// test class for VoiceSynthesizer
-		//new VoiceSynthesizerTest();
 	}
 }

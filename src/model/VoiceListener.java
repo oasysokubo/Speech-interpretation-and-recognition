@@ -3,6 +3,9 @@ package model;
 import java.util.Arrays;
 import java.util.List;
 
+import api.RunCommand;
+import api.VoiceSynthesizer;
+
 /*
  * voiceListener takes in the speech in String form from the main, speech
  * analysis class and executes specific commmand based on unique statement
@@ -10,7 +13,7 @@ import java.util.List;
 public class VoiceListener {
 
 	// Math
-	Math math;
+	ArithmeticAnalysis math;
 	
 	// VoiceSynthesizer
 	VoiceSynthesizer voicesynthesizer;
@@ -20,6 +23,7 @@ public class VoiceListener {
 	
 	// String Formatted output
 	private String output;
+	
 
 	/**
 	 * random expressions
@@ -56,7 +60,7 @@ public class VoiceListener {
 				|| speech.contains("subtract")) {
 
 			// call Math to calculate expression
-			math = new Math(speech);
+			math = new ArithmeticAnalysis(speech);
 
 			// function calls Math class for calculation
 			if (speech.contains("divide")) {
@@ -81,7 +85,7 @@ public class VoiceListener {
 		 * <greet>
 		 */
 		else if(speech.contains("hello") || speech.contains("hey") || speech.contains("hi")) {
-			output = greet[0];
+			output = greet[(int) (Math.random() * greet.length)];
 		}
 		/**
 		 * </greet>
@@ -150,7 +154,7 @@ public class VoiceListener {
 		 */
 		
 		else {
-			output = unknown[0];
+			output = unknown[(int) (Math.random() * unknown.length)];
 		}
 		
 		

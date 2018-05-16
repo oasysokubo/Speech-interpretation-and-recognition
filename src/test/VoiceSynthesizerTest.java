@@ -1,6 +1,8 @@
-package model;
+package test;
 
 import java.util.Scanner;
+
+import api.VoiceSynthesizer;
 
 public class VoiceSynthesizerTest {
 
