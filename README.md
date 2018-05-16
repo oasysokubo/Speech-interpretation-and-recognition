@@ -44,6 +44,8 @@ test:
 **update:**
 -------------------------------------------------------------------
 
+May 15, 2018 - Updated
+
 April 29, 2018 - Implemented Voice Synthesizer for natural linguistic feedback.
 
 April 18, 2018 - Simple voice recognition able to understand basic English language. 
