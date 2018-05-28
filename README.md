@@ -1,4 +1,4 @@
-**VR_System** - Voice recognition system able to understand and translate English speech into text by using an acoustical modeling translation system. Implemented a voice synthesizer system for natural language feedback.
+**psr-system** - voice recognition system allows for users to speek natural english voice commands and receive audible feedback
 
 Oasys Okubo
 
@@ -43,6 +43,8 @@ test:
 
 **update:**
 -------------------------------------------------------------------
+
+May 27, 2018 - More commands
 
 May 15, 2018 - Updated
 
