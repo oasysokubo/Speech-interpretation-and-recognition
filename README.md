@@ -9,34 +9,34 @@ Oasys Okubo
 
 model:
 
-  * Main.java - program launcher 
+ * Main.java - program launcher 
 
-**ArithmeticAnalysis.java** - calculates math equation recognized by speech recognition
+ * ArithmeticAnalysis.java - calculates math equation recognized by speech recognition
 
-**VoiceListener.java** - takes in speech from Main and executes specific command
+ * VoiceListener.java - takes in speech from Main and executes specific command
 
 
 api:
 
-**VoiceDictation.java** - voice recognition system
+ * VoiceDictation.java - voice recognition system
 
-**VoiceSynthesizer.java** - a voice synthesizer able to give linguistic feedback to users
+ * VoiceSynthesizer.java - a voice synthesizer able to give linguistic feedback to users
 
-**RunCommand.java** - a runtime class for performing computer system tasks
+ * RunCommand.java - a runtime class for performing computer system tasks
 
 
 test:
 
-**VoiceListenerTest.java** - a test class for VoiceListener.java
+ * VoiceListenerTest.java - a test class for VoiceListener.java
 
-**VoiceSynthesizerTest.java** - a test class for VoiceSynthesizer.java
+ * VoiceSynthesizerTest.java - a test class for VoiceSynthesizer.java
 
 
 
 **Run the Program**
 ------------------------------------------------------------------
 
-
+Steps....
 
 
 
