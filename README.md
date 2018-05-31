@@ -9,7 +9,7 @@ Oasys Okubo
 
 model:
 
-  ***Main.java** - program launcher 
+  * Main.java - program launcher 
 
 **ArithmeticAnalysis.java** - calculates math equation recognized by speech recognition
 
