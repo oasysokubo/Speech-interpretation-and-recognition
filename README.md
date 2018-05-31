@@ -4,7 +4,7 @@ Oasys Okubo
 
 2018-4-30
 
-**sources:**
+**Sources:**
 -------------------------------------------------------------------
 
 model:
@@ -33,13 +33,13 @@ test:
 
 
 
-**run the program:**
+**Run the Program:**
 ------------------------------------------------------------------
 
 
 
 
-**built with:**
+**Built with:**
 -------------------------------------------------------------------
 
 [CMUSphinx](https://cmusphinx.github.io) - speech recognition toolkit
@@ -47,7 +47,7 @@ test:
 [FreeTTS](https://freetts.sourceforge.io) - speech synthesizer api
 
 
-**update:**
+**Update:**
 -------------------------------------------------------------------
 
 May 27, 2018 - More commands
