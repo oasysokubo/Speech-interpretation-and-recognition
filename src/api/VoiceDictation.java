@@ -20,8 +20,7 @@ import test.VoiceListenerTest;
 
 /**
  * 
- * 
- * @author oasysokubo
+ * Voice / Speech recognizer
  *
  */
 public class VoiceDictation {
@@ -73,12 +72,12 @@ public class VoiceDictation {
 		configuration.setAcousticModelPath("resource:/edu/cmu/sphinx/models/en-us/en-us");
 		configuration.setDictionaryPath("resource:/edu/cmu/sphinx/models/en-us/cmudict-en-us.dict");
 
-		// configuration.setLanguageModelPath("resource:/edu/cmu/sphinx/models/en-us/en-us.lm.bin");
+		configuration.setLanguageModelPath("resource:/edu/cmu/sphinx/models/en-us/en-us.lm.bin");
 
 		// Grammar
-		configuration.setGrammarPath("resource:/grammars");
-		configuration.setGrammarName("grammar");
-		configuration.setUseGrammar(true);
+		//configuration.setGrammarPath("resource:/grammars");
+		//configuration.setGrammarName("grammar");
+		//configuration.setUseGrammar(true);
 
 		try {
 			recognizer = new LiveSpeechRecognizer(configuration);
