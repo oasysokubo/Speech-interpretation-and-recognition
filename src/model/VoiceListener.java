@@ -30,6 +30,7 @@ public class VoiceListener {
 	 */
 	String[] unknown = { "what did you say?", "what?" };
 	String[] greet = { "hey", "hi", "hello", };
+	String[] feedback = { "okay", "alright", "for sure" };
 
 	/**
 	 * Constructor
