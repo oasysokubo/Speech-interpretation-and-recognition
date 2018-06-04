@@ -51,6 +51,8 @@ test:
 **Update**
 -------------------------------------------------------------------
 
+June 3, 2018 - More commands and language translator 
+
 May 27, 2018 - More commands
 
 May 15, 2018 - Updated
