@@ -19,8 +19,7 @@ import test.VoiceListenerTest;
 
 
 /**
- * 
- * Voice / Speech recognizer
+ * This is the main class where the voice dictation is parsed into text
  *
  */
 public class VoiceDictation {
@@ -230,5 +229,22 @@ public class VoiceDictation {
 
 	public boolean getSpeechRecognizerThreadRunning() {
 		return speechRecognizerThreadRunning;
+	}
+	
+	/**
+	 * Main Method
+	 * 
+	 * @param args
+	 */
+	public static void main(String[] args) {
+
+		// launch application
+		 new VoiceDictation();
+
+		// test class for VoiceListener
+		//new VoiceListenerTest();
+
+		// test class for VoiceSynthesizer
+		// new VoiceSynthesizerTest();
 	}
 }
