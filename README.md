@@ -4,12 +4,12 @@ Oasys Okubo
 
 2018-4-30
 
+
 - Progress....
 - Only has limited functionality and command varieties.
 
 
-Sources
--------------------------------------------------------------------
+Sources:
 
  * Main.java - program launcher 
 
@@ -24,8 +24,7 @@ Sources
  * RunCommand.java - a runtime class for performing computer system tasks
 
 
-Built with
--------------------------------------------------------------------
+Built with:
 
 [CMUSphinx](https://cmusphinx.github.io) - speech recognition toolkit
 
