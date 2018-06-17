@@ -4,6 +4,8 @@ Oasys Okubo
 
 2018-4-30
 
+- Only has limited functionality and command varieties.
+
 
 **Sources**
 -------------------------------------------------------------------
@@ -27,9 +29,3 @@ Oasys Okubo
 [CMUSphinx](https://cmusphinx.github.io) - speech recognition toolkit
 
 [FreeTTS](https://freetts.sourceforge.io) - speech synthesizer api 
-
-
-
-
-
-Only has limited functionality and command varieties.
