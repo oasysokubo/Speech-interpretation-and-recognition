@@ -1,4 +1,4 @@
-**vrs_sys** - voice recognition and synthesizer allows for users to speak natural english voice commands and receive audible feedback
+**vrs-sys** - voice recognition and synthesizer allows for users to speak natural english voice commands and receive audible feedback
 
 Oasys Okubo
 
@@ -27,3 +27,6 @@ Oasys Okubo
 [CMUSphinx](https://cmusphinx.github.io) - speech recognition toolkit
 
 [FreeTTS](https://freetts.sourceforge.io) - speech synthesizer api 
+
+
+- Only has limited functionality and command varieties.
