@@ -29,4 +29,7 @@ Oasys Okubo
 [FreeTTS](https://freetts.sourceforge.io) - speech synthesizer api 
 
 
-- Only has limited functionality and command varieties.
+
+
+
+Only has limited functionality and command varieties.
