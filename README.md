@@ -4,6 +4,8 @@ Oasys Okubo
 
 2018-4-30
 
+# Change this to a multi-lingual spoken dialog system for translating English to any other language. #
+
 
 **Sources**
 -------------------------------------------------------------------
