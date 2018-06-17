@@ -1,4 +1,4 @@
-**vrs_sys** - voice recognition system allows for users to speek natural english voice commands and receive audible feedback
+**vrs_sys** - voice recognition and synthesizer allows for users to speak natural english voice commands and receive audible feedback
 
 Oasys Okubo
 
