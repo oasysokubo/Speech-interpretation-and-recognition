@@ -8,7 +8,7 @@ Oasys Okubo
 - Only has limited functionality and command varieties.
 
 
-**Sources**
+Sources
 -------------------------------------------------------------------
 
  * Main.java - program launcher 
@@ -24,7 +24,7 @@ Oasys Okubo
  * RunCommand.java - a runtime class for performing computer system tasks
 
 
-**Built with**
+Built with
 -------------------------------------------------------------------
 
 [CMUSphinx](https://cmusphinx.github.io) - speech recognition toolkit
