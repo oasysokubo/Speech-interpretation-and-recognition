@@ -1,4 +1,11 @@
-**voicer** - voice recognition and synthesizer allows for users to speak natural english voice commands and receive audible feedback
+# This project changes, 6/21:
+# Delete ArithmeticAnalysis, change VoiceListener for only speech-to-text parsing
+# RunCommand not needed, VoiceSynthesizer is optional at start
+# Bring back **Main class** and maybe implement JavaFX interface. 
+
+
+**voicer** - voice recognition and synthesizer allows for users to speak natural english voice commands and receive audible 
+feedback
 
 Oasys Okubo
 
