@@ -5,10 +5,6 @@ Oasys Okubo
 2018-4-30
 
 
-- Progress....
-- Only has limited functionality and command varieties.
-
-
 **Sources:**
 
  * Main.java - program launcher 
