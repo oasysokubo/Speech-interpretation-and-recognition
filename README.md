@@ -1,5 +1,4 @@
-**voice_recognition** - voice recognition and synthesizer allows for users to speak natural english voice commands and receive audible 
-feedback
+**voice_recognition** - voice recognition and synthesizer allows for users to speak natural english and receive audible feedback on what the user said based on the current words in the grammar file (dictionary).
 
 Oasys Okubo
 
