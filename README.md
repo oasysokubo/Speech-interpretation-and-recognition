@@ -8,9 +8,6 @@ Oasys Okubo
 
 **Sources:**
 
- * Main.java - program launcher 
-
- * ArithmeticAnalysis.java - calculates math equation recognized by speech recognition
 
  * VoiceListener.java - takes in speech from Main and executes specific command
 
@@ -18,7 +15,6 @@ Oasys Okubo
 
  * VoiceSynthesizer.java - a voice synthesizer able to give linguistic feedback to users
 
- * RunCommand.java - a runtime class for performing computer system tasks
 
 
 **Built with:**
