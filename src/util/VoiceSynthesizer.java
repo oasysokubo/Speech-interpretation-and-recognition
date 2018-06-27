@@ -10,7 +10,6 @@ import javax.speech.synthesis.SynthesizerModeDesc;
  * system able to convert normal language text into speech in symbolic
  * linguistic representations like phonetic transcriptions into speech.
  * 
- * All rights go to Oracle's freetts-1 library.
  */
 public class VoiceSynthesizer {
 	
