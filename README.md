@@ -5,9 +5,14 @@ Oasys Okubo
 
 2018-4-30
 
+**Info:**
+
+- Master branch contains the voice recognition api along with a voice synthesizer 
+- voice_assist branch contains an unfinished virtual assistant / hands-free computing application, which
+needs more varieties of commands and functionalities.
+
 
 **Sources:**
-
 
  * VoiceListener.java - takes in speech from Main and executes specific command
 
