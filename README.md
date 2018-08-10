@@ -4,8 +4,6 @@ Oasys Okubo
 
 2018-4-30
 
-# **INFO** - voicelistener class, make it launch voicedictation, then return string value to voicelistener(main class). 
-
 **Info:**
 
 - Master branch contains the voice recognition api along with a voice synthesizer 
