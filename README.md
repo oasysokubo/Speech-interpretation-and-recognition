@@ -19,11 +19,6 @@ A few modules/packages are used in this project:
 
 [FreeTTS](https://freetts.sourceforge.io) - speech synthesizer api 
 
-Run this program:
-```bash
-java 
-```
-
 Sources in this project:
 * VoiceListener.java - takes in speech from Main and executes specific command
 * VoiceDictation.java - voice recognition system
