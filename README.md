@@ -1,5 +1,3 @@
-# Voice Over
-
 Oasys Okubo
 
 2018-4-30
